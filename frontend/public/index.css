@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.header{
+   overflow: hidden;
+  background-color: #333;
+  position: sticky !important;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.list ul li{
+  display: inline;
+  padding: 10px;
+  color: white;
+}
+
+.logoattr{
+  height: 2rem;
+}
+
+.nav-link{
+  color: white !important;
+  font-size:150%;
+  font-weight: bolder;
+}
+
+.nav-link:hover{
+  background-color: white;
+  color: #FFC107 !important;
+  padding: 0;
+}
+
+#carouselExampleControls{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+}
+
+.hometexts{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.titleStyle{
+  font-weight: bolder;
+  color: #FFC107;
+}
+
+.descriptionStyle{
+  line-height: 130%;
+  color: #666666;
+}
+
+.col-lg-3 img{
+    width: 100%;
+}
+
+.maincontainer{
+  padding-top: 2%;
+  width: 100%;
+}
+
+.sub-title{
+  color: #FFC107;
+}
+
+.horizontalrow-container{
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.horizontalrow{
+  border-top: 13px dotted #FFC107;
+  background-color: white;
+  opacity: 1;
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.what-we-print{
+  padding-bottom: 2%;
+}
+.what-we-print-image-style{
+  width: 80%;
+  padding-bottom: 2%;
+}
+
+.populer-product-card-image{
+  width: 100%;
+}
+
+.populer-product-card-image:hover{
+  width: 96%;
+  border: 4px solid #FFC107;
+}
+
+.populer-product-card{
+  text-align: center;
+  margin-bottom: 15px;
+  -webkit-box-shadow: -2px 0px 10px -4px rgba(0,0,0,0.23); 
+  box-shadow: -2px 0px 10px -4px rgba(0,0,0,0.23);
+  padding: 4%;
+  border-radius: 2%;
+}
+
+.populer-product-card h6{
+  color: rgb(40, 209, 130);
+}
+
+.populer-product-card a{
+  text-align: center;
+  font-size: large;
+  text-decoration: none;
+  color: black;
+  font-weight:600;
+
+  -webkit-transition: color .3s ease-out;
+}
+
+.populer-product-card a:hover{
+  text-align: center;
+  font-size: large;
+  text-decoration: none;
+  font-weight:600;
+  color: #FFC107;
+}
+
+.footer-style{
+  background-color: #FFC107;
+  padding: 30px;
+  color: white;
+  text-align: center;
+}
+
+.footer-text-style{
+  font-size: larger;
+}
+
+.footer-social-text-style{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-social-text-style:hover{
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+}
+
+.copyright-text-style{
+  background-color: white;
+  color: #666666;
+  text-align: center;
+  font-size: medium;
+  padding-top: 2%;
+}
+
+.galler-image-card{
+  width: 100%;
+  margin-top: 8%;
+  border: 5px solid #FFC107;
+}
+
+
+.shop-attr{
+  margin-top: 2%;
+}
+
+.add-to-card-btn{
+width: 100%;
+}
+
+
+
+.product-details-container-left{
+  background-color: #666666;
+  padding: 2%;
+}
+
+.product-details-container-left img{
+  width: 100%;
+}
+
+.product-details-container-right{
+  background-color: #cfcfcf;
+  padding: 2%;
+}
+
+.form-container{
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.add-product-button{
+  display:block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #FFC107;
+  border-color: white;
+  margin-top: 2%;
+  margin-left: 2%;
+  
+}
+
+.edit-btn{
+  text-decoration: none;
+}
+
+
+.btn-text-size{
+  font-size: large !important;
+  font-weight: bolder !important;
+}
+
+.images{
+  width: 100%;
+  height: 100%;
+}
