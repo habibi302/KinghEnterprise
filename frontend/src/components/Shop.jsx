@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import ProductCard from "./ProductCard";
 import Axios from "axios";
+import Carticon from "./Carticon";
 
 
 function Shop(){
@@ -21,21 +22,24 @@ function Shop(){
     }, []);
 
     return(
-        <>
+        <div>
         <Header />
-        <div className="container shop-attr">
+        <div className="container shop-attr" style={{minHeight:"70vh"}}>
               <div className="row">
               {
                   data.map((val,key)=>{
                       return(
-                        <ProductCard title={val.title} price={val.price} imgurl={val.imgurl}/>
+                        <ProductCard key={key} title={val.title} price={val.price1+"-$"+val.price2} pID={val._id} imgurl={val.imgurl}/>
                       )
                   })
               }
               </div>
             </div>
+
+            <Carticon />
+            
         <Copyright />
-        </>
+        </div>
     )
 }
 

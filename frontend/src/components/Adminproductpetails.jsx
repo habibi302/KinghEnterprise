@@ -13,7 +13,7 @@ function Adminproductpetails(){
                     <div class="col-md-4">
                     <img  src={"http://localhost:3001/"+location.state.imgurl} className="images p-1" alt="..."/>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 p-4">
                         <h5 class="card-title text-warning fw-bold ">{location.state.title}</h5>
                             <h3 className="text-success"> $38.00 – $110.00</h3>
                         <p class="card-text">{location.state.desc}</p>

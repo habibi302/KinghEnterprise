@@ -8,7 +8,7 @@ function Adminheader(){
   return(
  <nav class="navbar navbar-expand-lg navbar-warning bg-warning navbar-fixed-top header">
   <div class="container-fluid">
-    <Link class="navbar-brand" to={"/"}><img className="logoattr" src={logo} alt="logo"/></Link>
+  <Link className="nbstyle" to="/admindashboard/orders"><h1 className="nbstyle2" alt="logo">Kingh-Enterprise</h1></Link>
     <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

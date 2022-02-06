@@ -28,14 +28,14 @@ try {
         
  <div className="maincontainer">
     <div className="who-we-are">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6">
             <h2 className="sub-title">DESIGN</h2>
             <p className="descriptionStyle">We offer a variety of graphic design services and products.</p>
             <img src={design} alt="laptop" />
           </div>
-          <div class="col-lg-6">
+          <div className="col-lg-6">
           <h2 className="sub-title">PRINT</h2>
             <p className="descriptionStyle">We specialize in the short to medium production prints of graphics, signage and banners for POP display etc.</p>
             <img src={print} alt="printer" />
@@ -69,7 +69,7 @@ Show your organization or business pride and advertise at the same time with a p
               <div className="row">
               {data.map((val,key)=>{
                   return(
-                    <PopulerProductCard title={val.title} imgurl={val.imgurl}/>
+                    <PopulerProductCard key={key} title={val.title} price={val.price1+"-$"+val.price2} pID={val._id} imgurl={val.imgurl}/>
                   )
               })}
               </div>

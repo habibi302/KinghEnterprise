@@ -29,7 +29,7 @@ function Adminlogin(){
     }
 
     function loginAction(){
-        navigate("/admindashboard", {state: {username: name, pass: password}});
+        navigate("/admindashboard/orders", {state: {username: name, pass: password}});
     }
    
 
@@ -37,7 +37,7 @@ function Adminlogin(){
         <div className="form-container">
         <main class="form-signin">
             <div>
-                <h1 class="h3 mb-3 fw-normal ms-5 ps-3">Please sign in</h1>
+                <h1 class="h3 mb-3 fw-normal text-warning ms-5 ps-3">Please sign in</h1>
 
                 <div class="form-floating">
                 <input type="text" class="form-control" value={name} onChange={addName} name="name" id="floatingInput" placeholder="name@example.com"/>
@@ -48,7 +48,7 @@ function Adminlogin(){
                 <label for="floatingPassword">Password</label>
                 </div>
 
-                <button class="w-100 btn btn-lg btn-primary" type="submit" onClick={loginAction}>Sign in</button>
+                <button class="w-100 btn btn-lg btn-warning text-white" type="submit" onClick={loginAction}>Sign in</button>
             </div>
         </main>
         </div>

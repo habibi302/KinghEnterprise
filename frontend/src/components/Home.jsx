@@ -3,7 +3,7 @@ import Header from "./Header";
 import Carousel from "./Carousel";
 import Hometexts from "./Hometexts";
 import Footer from "./Footer";
-import Copyright from "./Copyright";
+import Carticon from "./Carticon";
 
 
 function Home() {
@@ -13,7 +13,12 @@ function Home() {
       <Carousel />
       <Hometexts />
       <Footer />
-      <Copyright />
+      <div className="copyright-text-style2">
+            <p>2021 NAJGRAPHICS LLC. COPYRIGHT © ALL RIGHTS RESERVED. THEME: SHOP ELITE BY THEMESAGA</p>
+        </div>
+
+        <Carticon />
+
     </div>
   );
 }
